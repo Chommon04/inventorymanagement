@@ -3,11 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Redirecting to Project</title>
-  <!-- Redirect immediately to your public IP project -->
-  <meta http-equiv="refresh" content="0; url=https://inventorymanagementagc.duckdns.org/login">
+  <title>Project Viewer</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-  <p>Redirecting to your project... If you are not redirected automatically, click <a href="https://inventorymanagementagc.duckdns.org/login">here</a>.</p>
+  <iframe src="https://inventorymanagementagc.duckdns.org/login" title="Project"></iframe>
 </body>
 </html>
